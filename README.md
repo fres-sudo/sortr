@@ -1,10 +1,6 @@
 # 📝 Sortr
 
-**AI-Powered Local Note Organization** - Modern TypeScript implementation!
-
-## 🎉 What You Get
-
-A **production-ready** Sortr built with TypeScript and Bun that's fast, modern, and feature-complete!
+![_IMG Sortr Logo](https://5yyithvls1.ufs.sh/f/3nsI94TDxXoGWGQ9Hm6tzS7uTn1Vmitc9yRLK3rEfChPFW6l)
 
 ## 🚀 Quick Start
 
@@ -12,19 +8,7 @@ A **production-ready** Sortr built with TypeScript and Bun that's fast, modern, 
 ./install.sh
 ```
 
-## 📦 What's Included
-
-```
-⚡ 2,000+ lines of TypeScript code
-📚 5,000+ lines of documentation
-🛠️ Modern CLI with Clack prompts
-🧠 Custom vector store
-🗄️ Bun's built-in SQLite
-🎨 Gorgeous terminal UI
-📦 Compiles to single binary (40-50MB)
-```
-
-### Key Features
+## 🔑 Key Features
 
 - ✅ 100% Local - No cloud, no API keys
 - ✅ Smart Learning - Analyzes your organization
@@ -213,17 +197,3 @@ Built with:
 ```bash
 ./install.sh
 ```
-
-**Production-ready** and **fully functional**!
-
-Happy note sorting! 📝✨
-
----
-
-**Project Status:** ✅ Complete and Production Ready
-
-**Total Code:** ~2,000 lines of TypeScript
-**Total Docs:** ~5,000 lines of documentation
-**Time to Get Started:** 5 minutes with install script
-**Privacy:** 100% local, your notes never leave your machine
-**Cost:** $0 - Completely free and open source!
