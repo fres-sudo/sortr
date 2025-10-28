@@ -1,0 +1,47 @@
+# Sortr Configuration Example (TypeScript + Bun)
+# Copy this to ~/.sortr/config.yaml and customize
+
+# Path to your notes workspace
+workspace: ~/notes
+
+# Path to inbox folder (relative to workspace or absolute)
+inbox: inbox
+
+# Ollama model to use for sorting decisions
+# Options: llama3.2:3b (faster), llama3.2:8b (more accurate)
+model: llama3.2:3b
+
+# Automatically sort without confirmation
+autoSort: false
+
+# Minimum confidence threshold (0.0-1.0)
+# Notes below this threshold will require confirmation
+confidenceThreshold: 0.7
+
+# File extensions to process
+fileExtensions:
+  - .md
+  - .txt
+  - .org
+  - .rst
+
+# Folders to exclude from analysis
+excludeFolders:
+  - .git
+  - .obsidian
+  - .trash
+  - archive
+  - node_modules
+  - .vscode
+
+# Embedding model for similarity search
+# Options:
+#   - Xenova/all-MiniLM-L6-v2: Fast, good quality (default)
+#   - Xenova/all-mpnet-base-v2: Slower, better quality
+embeddingModel: Xenova/all-MiniLM-L6-v2
+
+# Number of similar notes to consider
+topKSimilar: 5
+
+# Data directory for storing embeddings and metadata
+dataDir: ~/.sortr

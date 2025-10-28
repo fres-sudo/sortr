@@ -1,0 +1,12 @@
+[install]
+# Install dependencies with specific behavior
+cache = true
+lockfile = true
+exact = true
+
+[run]
+# Make scripts executable
+
+[test]
+# Test configuration
+preload = []
